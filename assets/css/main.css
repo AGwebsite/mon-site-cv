@@ -3466,7 +3466,7 @@ input, select, textarea {
 			height: auto;
 			position: relative;
 			margin-left: 12px ;
-			margin-bottom: -12px;
+			margin-bottom: 0px;
 			filter: opacity(70%);
 
 		}
@@ -3476,9 +3476,31 @@ input, select, textarea {
 			position: relative;
 			margin-left: 12px ;
 			margin-bottom: -12px;
-			/* filter: opacity(70%); */
+			filter: opacity(140%);
+			background-color: white;
+			padding: 4px;
+			border-radius: 50px;
+		}
+
+		@media screen and (max-width: 550px) {
+			.swim2 {
+				width: 40px;
+				height: auto;
+				position: relative;
+				margin-left: 12px ;
+				margin-bottom: -12px;
+				filter: opacity(140%);
+			}
+
+			h3.major {
+
+			}
 
 		}
+
+
+
+
 
 		.olympics{
 			width: 70px;
