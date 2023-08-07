@@ -3476,7 +3476,7 @@ input, select, textarea {
 			position: relative;
 			margin-left: 12px ;
 			margin-bottom: -12px;
-			filter: opacity(140%);
+			filter: opacity(96%);
 			background-color: white;
 			padding: 4px;
 			border-radius: 50px;
@@ -3516,7 +3516,7 @@ input, select, textarea {
 			#banner {
 				padding: 7em 0 8.25em 0 ;
 				background-color: #2e3141;
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../css/images/lane-line.jpg");
 				background-size: auto,
  cover;
 				background-position: center,
