@@ -145,7 +145,6 @@
 
 })(jQuery);
 
-
 // Lorsque le bouton pour le français est cliqué (INDEX)
 document.getElementById("frenchButton").addEventListener("click", function() {
     window.location.href = "index.uk.html"; // Remplacez par le chemin de votre page en français
@@ -155,4 +154,19 @@ document.getElementById("frenchButton").addEventListener("click", function() {
 document.getElementById("englishButton").addEventListener("click", function() {
     window.location.href = "index.html"; // Remplacez par le chemin de votre page en anglais
 });
+
+
+// Lorsque le bouton pour le français est cliqué (formation)
+document.getElementById("frenchButton1").addEventListener("click", function() {
+    window.location.href = "formation.uk.html"; // Remplacez par le chemin de votre page en français
+});
+
+// Lorsque le bouton pour l'anglais est cliqué (formation)
+document.getElementById("englishButton1").addEventListener("click", function() {
+    window.location.href = "formation.html"; // Remplacez par le chemin de votre page en anglais
+});
+
+
+
+
 
