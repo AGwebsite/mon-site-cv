@@ -1,9 +1,3 @@
-/*
-	Solid State by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 
 (function($) {
 
@@ -145,28 +139,30 @@
 
 })(jQuery);
 
+
 // Lorsque le bouton pour le français est cliqué (INDEX)
 document.getElementById("frenchButton").addEventListener("click", function() {
     window.location.href = "index.uk.html"; // Remplacez par le chemin de votre page en français
 });
-
 // Lorsque le bouton pour l'anglais est cliqué (INDEX)
 document.getElementById("englishButton").addEventListener("click", function() {
     window.location.href = "index.html"; // Remplacez par le chemin de votre page en anglais
 });
-
-
 // Lorsque le bouton pour le français est cliqué (formation)
-document.getElementById("frenchButton1").addEventListener("click", function() {
+document.getElementById("frenchButtonFormation").addEventListener("click", function() {
     window.location.href = "formation.uk.html"; // Remplacez par le chemin de votre page en français
 });
-
 // Lorsque le bouton pour l'anglais est cliqué (formation)
-document.getElementById("englishButton1").addEventListener("click", function() {
+document.getElementById("englishButtonFormation").addEventListener("click", function() {
     window.location.href = "formation.html"; // Remplacez par le chemin de votre page en anglais
 });
 
-
-
-
+// Lorsque le bouton pour le français est cliqué (formation)
+document.getElementById("frenchButtonExperience").addEventListener("click", function() {
+    window.location.href = "experience-references.uk.html"; // Remplacez par le chemin de votre page en français
+});
+// Lorsque le bouton pour l'anglais est cliqué (formation)
+document.getElementById("englishButtonExperience").addEventListener("click", function() {
+    window.location.href = "experience-references.html"; // Remplacez par le chemin de votre page en anglais
+});
 
