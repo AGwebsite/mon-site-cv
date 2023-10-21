@@ -141,30 +141,69 @@
 
 
 // Lorsque le bouton pour le français est cliqué (INDEX)
-document.getElementById("frenchButton").addEventListener("click", function() {
-    window.location.href = "index.uk.html"; // Remplacez par le chemin de votre page en français
-});
+const btn1 = document.getElementById("frenchButton");
+
+if(btn1){
+	btn1.addEventListener("click", function() {
+		window.location.href = "index.uk.html"; // Remplacez par le chemin de votre page en français
+	});
+}
+
 // Lorsque le bouton pour l'anglais est cliqué (INDEX)
-document.getElementById("englishButton").addEventListener("click", function() {
-    window.location.href = "index.html"; // Remplacez par le chemin de votre page en anglais
-});
+const btn2 = document.getElementById("englishButton");
+
+if(btn2){
+	btn2.addEventListener("click", function() {
+		window.location.href = "index.html"; // Remplacez par le chemin de votre page en anglais
+	});
+}
 
 // Lorsque le bouton pour le français est cliqué (formation)
-document.getElementById("frenchButtonFormation").addEventListener("click", function() {
-    window.location.href = "formation.uk.html"; // Remplacez par le chemin de votre page en français
-});
+const btn3 = document.getElementById("frenchButtonFormation") ;
+if(btn3){
+	btn3.addEventListener("click", function() {
+		window.location.href = "formation.uk.html"; // Remplacez par le chemin de votre page en français
+	});
+}
 
 // Lorsque le bouton pour l'anglais est cliqué (formation)
-document.getElementById("englishButtonFormation").addEventListener("click", function() {
-    window.location.href = "formation.html"; // Remplacez par le chemin de votre page en anglais
+const btn4 = document.getElementById("englishButtonFormation");
+if(btn4){
+ 	btn4.addEventListener("click", function() {
+    	window.location.href = "formation.html"; // Remplacez par le chemin de votre page en anglais
 });
+}
 
 // Lorsque le bouton pour le français est cliqué (formation)
-document.getElementById("frenchButtonExperience").addEventListener("click", function() {
-    window.location.href = "experience-references.uk.html"; // Remplacez par le chemin de votre page en français
-});
+const btn5 = document.getElementById("frenchButtonExperience");
+
 // Lorsque le bouton pour l'anglais est cliqué (formation)
-document.getElementById("englishButtonExperience").addEventListener("click", function() {
-    window.location.href = "experience-references.html"; // Remplacez par le chemin de votre page en anglais
+if(btn5){
+	document.getElementById("englishButtonExperience").addEventListener("click", function() {
+		window.location.href = "experience-references.html"; // Remplacez par le chemin de votre page en anglais
+	});
+}
+
+const btn6 = document.getElementById("englishButtonExperience");
+if(btn6){
+ 	btn6.addEventListener("click", function() {
+    	window.location.href = "experience-references.uk.html"; // Remplacez par le chemin de votre page en anglais
 });
+}
+
+
+const btn7 = document.getElementById("frenchButtonCompetences");
+if(btn7){
+ 	btn7.addEventListener("click", function() {
+    	window.location.href = "competences.uk.html"; // Remplacez par le chemin de votre page en anglais
+});
+}
+
+
+const btn8 = document.getElementById("englishButtonCompetences");
+if(btn8){
+ 	btn8.addEventListener("click", function() {
+    	window.location.href = "competences.html"; // Remplacez par le chemin de votre page en anglais
+});
+}
 
