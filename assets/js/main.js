@@ -184,13 +184,12 @@ if(btn5){
 	});
 }
 
-const btn6 = document.getElementById("englishButtonExperience");
+const btn6 = document.getElementById("frenchButtonExperience");
 if(btn6){
  	btn6.addEventListener("click", function() {
     	window.location.href = "experience-references.uk.html"; // Remplacez par le chemin de votre page en anglais
 });
 }
-
 
 const btn7 = document.getElementById("frenchButtonCompetences");
 if(btn7){
