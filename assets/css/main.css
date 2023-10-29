@@ -89,11 +89,11 @@ input, select, textarea {
 			min-width: 320px;
 		}
 
-		#englishButton {
+		#englishButton, #englishButtonCompetences, #englishButtonExperience, #englishButtonFormation {
 			width: 35px;
 		}
 
-		#frenchButton {
+		#frenchButton, #frenchButtonExperience, #frenchButtonFormation, #frenchButtonCompetences {
 			width: 35px;
 		}
 
